@@ -308,7 +308,7 @@ header .white{
     border-radius: 50%;
     background:linear-gradient(45deg,red,black,red,black);
     background-size: 300%;
-    animation: autoRotate 2s infinite linear;
+    animation: autoRotate 3s infinite linear;
 }
 @keyframes autoRotate{
    0%{
