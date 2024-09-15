@@ -171,9 +171,9 @@ span{
     transition: 0.2s linear;
 }
 
-.home .home-img img:hover{
+/* .home .home-img img:hover{
     transform: scale(1.1);
-}
+} */
 
 .social-icons a{
     display: inline-flex;
@@ -300,4 +300,27 @@ header .white{
         margin-top: 4rem;
     }
 }
-
+.gradient_wrapper{
+    position: relative;
+    display: inline-block;
+    width: fit-content;
+    padding: 2.5px;
+    border-radius: 50%;
+    background:linear-gradient(45deg,red,black,red,black);
+    background-size: 300%;
+    animation: autoRotate 1s infinite linear;
+}
+@keyframes autoRotate{
+   0%{
+    background-position: 0% 35%;
+   }
+   35%{
+    background-position:35% 50%;
+   }
+   50%{
+    background-position: 50% 100%;
+   }
+   100%{
+    background-position: 100% 0%;
+   }
+}
